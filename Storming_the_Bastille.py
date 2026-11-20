@@ -23,7 +23,7 @@ def starting_screen():
         decision_2 = input("What would you like to do? ")
         if decision_2 == 'A' or decision_2 == 'a':
             print("You chose to follow history on this one. You run to join the crowd of rebels and help them ready the cannons.")
-        elif decision_2 == 'B' or decision_2 == 'b'
+        elif decision_2 == 'B' or decision_2 == 'b':
             print("You chose to go against history this time. It did not work out for you. You refused to join the rebels and your head ended up on a pike. How unfortunate.")
         elif decision_2 == 'C' or decision_2 == 'c':
             print("You chose not to follow the history books and it worked out! You run and hide inside the fortress. While trying to find a spot you see" / 
