@@ -34,18 +34,16 @@ def starting_screen():
         elif decision_2 == 'B' or decision_2 == 'b':
             print("You chose to go against history this time. It did not work out for you. You refused to join the rebels and your head ended up on a pike. How unfortunate.")
         elif decision_2 == 'C' or decision_2 == 'c':
-            print("You chose not to follow the history books, and it worked out! You run and hide inside the fortress. While trying to find a spot, you see" / 
-            " Governor Bernard-Rene Jordan de Launay. Will you A: Ask to hide with him, B: Betray him to the rebels, or C: Find another place to hide? ")
+            print("You chose not to follow the history books, and it worked out! You run and hide inside the fortress. While trying to find a spot you see" \
+            " Governor Bernard-Rene Jordan de Launay. Will you, A: Ask to hide with him, B: Betray him to the rebels, or C: Find another place to hide.")
             decision_3 = input("What would you like to do? ")
-        else:
-            print("Not a valid input. Please try again.")
             if decision_3 == 'A' or decision_3 == 'a':
                 print("You walk towards the Governor. He steps back and hits the wall, thinking you're a threat. You reassure him and" \
                 " ask to hide as well. He agrees. A few minutes later, cannons and gunfire start going off, and you hear footsteps through the " \
                 "fortress. The footsteps get closer and closer until a French soldier stands right in front of you. He calls for other soldiers " \
                 "and soon you both are held hostage. Game over. Sorry.")
             elif decision_3 == 'B' or decision_3 == 'b':
-                print("You decided to betray someone who could have been your friend. How foolish. You call for someone to come. A group of insurgents arrives, kills the governor, " \
+                print("You decided to betray someone who could have been your friend. How foolish. You call for someone to come. A group of insurgents arrive, kill the governor, " \
                 "and put his head on a pike. They quickly move on to you. Like I said, foolish.")
             elif decision_3 == 'C' or decision_3 == 'c':
                 print("You walk away from the Governor's spot and try to find another. Unfortunately, rebels have already started the attack." \
